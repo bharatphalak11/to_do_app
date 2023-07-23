@@ -1,4 +1,7 @@
 #!/bin/bash
 
 pwd
-cd ~/to_do_app; ls
+
+ssh ubuntu@65.2.132.44
+ls
+cd to_do_app/
