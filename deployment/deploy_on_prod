@@ -11,6 +11,6 @@ pwd
 #
 #EOF
 
-ssh ubuntu@65.2.132.44 './deploy_code'
+#ssh ubuntu@65.2.132.44 './deploy_code'
 
 ssh -i "bharat-aws.pem" ubuntu@65.2.132.44
