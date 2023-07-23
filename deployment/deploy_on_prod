@@ -2,10 +2,15 @@
 
 pwd
 
+cd /var/lib/jenkins
+pwd
+
 #ssh ubuntu@65.2.132.44 << EOF
 #	ls
 #	cd to_do_app/
 #
 #EOF
 
-ssh -tt ubuntu@65.2.132.44 './deploy_code'
+ssh ubuntu@65.2.132.44 './deploy_code'
+
+ssh -i "bharat-aws.pem" ubuntu@65.2.132.44
