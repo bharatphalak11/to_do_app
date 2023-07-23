@@ -8,4 +8,4 @@ pwd
 #
 #EOF
 
-ssh ubuntu@65.2.132.44 "./deploy_code"
+ssh production "./deploy_code"
