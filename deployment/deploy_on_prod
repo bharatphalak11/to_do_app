@@ -13,4 +13,4 @@ pwd
 
 #ssh ubuntu@65.2.132.44 './deploy_code'
 
-sudo sh -i "bharat-aws.pem" ubuntu@65.2.132.44
+echo "Jenkins@admin" | sudo -S ssh -i "bharat-aws.pem" ubuntu@65.2.132.44
