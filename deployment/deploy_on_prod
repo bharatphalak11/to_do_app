@@ -1,3 +1,4 @@
 #!/bin/bash
 
+pwd
 cd ~/to_do_app; ls
