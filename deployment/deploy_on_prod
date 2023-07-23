@@ -2,7 +2,7 @@
 
 pwd
 
-ssh ubuntu@65.2.132.44 << EOF
+ssh -t ubuntu@65.2.132.44 << EOF
 	ls
 	cd to_do_app/
 
