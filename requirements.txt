@@ -11,4 +11,5 @@ sqlparse==0.4.4
 tomli==2.0.1
 tomlkit==0.11.8
 typing_extensions==4.7.1
+uWSGI==2.0.22
 wrapt==1.15.0
